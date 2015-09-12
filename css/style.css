@@ -1,0 +1,38 @@
+#picture-css {
+        width: 400px;
+        height: 480px;
+        background-image: url(../image/iltq.png);
+        margin:0 auto;
+}
+
+#hovers {
+    width: 200px;
+    height: 200px;
+    border:1px solid red;
+}
+
+#hovers:hover {
+    
+   /* background-color: indianred; */
+    border:2px solid green;
+    color:azure;
+    background-image: url(../image/iltq.png);
+    background-size: 100%;
+    opacity:.5;
+}
+
+#hovers h2 {
+    text-align: center;
+}
+
+div img {width: 250px;
+        height: 300px;
+}
+
+div {
+    border: none;
+    background-color: rgba(205, 92, 92, 0.1);
+    width: 275px;
+    height: 350px;
+    margin: auto;   
+}
